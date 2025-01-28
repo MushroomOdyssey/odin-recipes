@@ -1,2 +1,4 @@
 # odin-recipes
-TOP/Foundations - Recipe Project
+
+TOP / Foundations:
+This is the "Recipes" website - the first project in TOP's Foundations course.
