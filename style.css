@@ -1,0 +1,176 @@
+/* --- ALL --- */
+
+* {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  text-shadow: 3px 2px 0 #ccc;
+  font-size: 36px;
+}
+
+.subtitle {
+  font-family: "Courier New";
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 100;
+}
+
+.source {
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+
+/* --- HOMEPAGE ---*/
+
+
+.home h1 {
+  margin-bottom: 0;
+}
+
+.home img {
+  width: auto;
+  height: 150px;
+  vertical-align: middle;
+}
+
+.home button {
+  padding: 0;
+}
+
+.burgerpicker {
+  position: relative;
+  border: 3px solid #000;
+  border-radius: 10px;
+  border-color: brown;
+  width:fit-content;
+  padding: 6px;
+  display: inline-block;
+}
+
+.pickertitle {
+  border: 3px solid;
+  border-color: brown;
+  border-radius: 20px;
+  line-height: 0;
+  position: inherit;
+  top: -41px;
+  color: #000;
+  background-color: white;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.burgerpicker ul {
+  position: relative;
+  top: -10px;
+  list-style-position: inside;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.burgerpicker li {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+/* --- RECIPE PAGES --- */
+
+.gohome {
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px;
+}
+
+.burgerpage .burgerpicker,
+.burgerpage .pickertitle {
+  color: blue;
+}
+
+.burgerpage .burgerpicker {
+  position: fixed;
+  left: 100px;
+  top: 10px;
+  padding-top: 20px;
+}
+
+.burgerpage .pickertitle {
+  position: relative;
+  top: -74px;
+  
+}
+
+.burgerpicker img {
+  width: auto;
+  height: 150px;
+  vertical-align: middle;
+}
+
+.recipe {
+  position: absolute;
+  top: 120px;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+
+/* ---------- all pages ---------- 
+
+* {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  text-shadow: 3px 2px 0 #ccc;
+  color: #000;
+}
+
+.home ul {
+  list-style-position: inside;
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+.home button {
+  background-color: brown;
+  font-weight: bold;
+  color: #ffff77;
+}
+
+/* ---------- recipe pages ---------- 
+
+.homebutton {
+  text-align: left;
+}

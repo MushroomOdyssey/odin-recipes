@@ -1,0 +1,79 @@
+/* everything */
+* {
+  /* reference borders */
+  margin: 5px;
+  width: auto;
+  border: 1px solid #ccc;
+  padding: 0px;
+  /*-----*/
+  text-align: center;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  /* index body class */
+  margin: auto;
+}
+
+.topbanner {
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 36px;
+  text-shadow: 3px 2px #ccc;
+}
+
+.subtitle {
+  font-style: italic;
+  font-family: "Courier New";
+  font-size: 18px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin: inherit;
+  border: 3px solid #000;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.menu-title {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  margin-top: -22px;
+  width: fit-content;
+  border: 3px solid #000;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.menu-list {
+  padding: 10px;
+}
+
+.menu-list img {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+}
+
+.menu-list li {
+  list-style: none;
+  display: inline-flex;
+}
+
+.links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
