@@ -1,24 +1,34 @@
-/* everything */
+/* --- EVERYTHING --- */
 * {
-  /* reference borders */
-  margin: 5px;
+  /* reference outlines */
+  outline: 1px dashed lightpink; /* outlines do not take up space */
+  outline-offset: 0px;
+  /*---*/
+  margin: auto;
   width: auto;
-  border: 1px solid #ccc;
   padding: 0px;
-  /*-----*/
   text-align: center;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+/* links */
+.links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
 }
 
 a {
   text-decoration: none;
 }
 
+/* --- BODY --- */
 .home {
-  /* index body class */
-  margin: auto;
+  margin: auto; /* center-aligns the element(s)j */
 }
 
+/* title */
 .topbanner {
   margin-bottom: 60px;
 }
@@ -32,10 +42,10 @@ a {
   font-style: italic;
   font-family: "Courier New";
   font-size: 18px;
-  margin-top: -5px;
-  margin-bottom: 10px;
+  margin-top: 1px;
 }
 
+/* burger menu */
 .menu {
   margin: inherit;
   border: 3px solid #000;
@@ -44,11 +54,9 @@ a {
 }
 
 .menu-title {
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
+  color: #000;
+  background-color: #ddd;
+  margin: inherit;
   margin-top: -22px;
   width: fit-content;
   border: 3px solid #000;
@@ -57,23 +65,15 @@ a {
 }
 
 .menu-list {
-  padding: 10px;
+  margin: 0px 10px 10px;
 }
 
 .menu-list img {
-  padding: 0px;
-  margin: 0px;
+  margin: 10px;
   vertical-align: bottom;
 }
 
 .menu-list li {
   list-style: none;
   display: inline-flex;
-}
-
-.links {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 20px;
 }
