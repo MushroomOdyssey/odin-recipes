@@ -1,24 +1,103 @@
 /* --- EVERYTHING --- */
 * {
   /* reference outlines */
-  outline: 0px dashed lightpink; /* outlines do not take up space */
+  outline: 1px dashed lightpink; /* outlines do not take up space */
   outline-offset: 0px;
   /*---*/
-  margin: auto;
+  /*  margin: auto; */
   width: auto;
   padding: 0px;
-  text-align: center;
+  /* text-align: center; */
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
 }
 
 /* links */
-.links {
+.sourcelink {
   position: fixed;
   bottom: 0;
   right: 0;
   margin: 20px;
 }
 
+.homelink {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+
+/* --- BODY --- */
+.topbar {
+  position: sticky;
+  top: 0px;
+  margin-top: -10px;
+  padding-top: 10px;
+  display: inline-flex;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.burgerimg {
+  position: absolute;
+  margin-top: 10px;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.burgerimg img {
+  height: 400px;
+  width: auto;
+}
+
+.titlebar {
+  position: relative;
+  padding-left: 400px;
+  width: 100%;
+  align-items: top;
+  margin: 10px;
+  height: 50%;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.description {
+  position: relative;
+  font-family: "Courier New";
+}
+
+.pagebody {
+  padding-left: 400px;
+  margin: 10px;
+  display: flex;
+}
+
+.pagebody h3 {
+  text-align: center;
+}
+
+.ingredients {
+  flex-grow: 1;
+}
+
+.directions {
+  flex-grow: 1;
+}
+
+.test {
+  height: 100vw;
 }

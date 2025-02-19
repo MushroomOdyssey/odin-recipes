@@ -12,7 +12,7 @@
 }
 
 /* links */
-.links {
+.sourcelink {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -28,8 +28,8 @@ a {
   margin: auto; /* center-aligns the element(s)j */
 }
 
-/* title */
-.topbanner {
+/* title bar */
+.titlebar {
   margin-bottom: 60px;
 }
 
@@ -78,6 +78,8 @@ a {
   margin: 10px;
   list-style: none;
   display: inline-flex;
+  justify-content: center; /* horiz center */
+  align-items: center; /* vert center */
   width: 300px;
   height: 300px;
   overflow: hidden;
