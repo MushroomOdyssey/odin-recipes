@@ -14,7 +14,7 @@
 /* links */
 .sourcelink {
   position: fixed;
-  bottom: 140px;
+  top: 400px;
   left: 170px;
   margin: 20px;
   z-index: 200;
