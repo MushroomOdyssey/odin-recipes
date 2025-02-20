@@ -15,14 +15,14 @@
 .sourcelink {
   position: fixed;
   top: 400px;
-  left: 170px;
+  left: 333px;
   margin: 20px;
   z-index: 200;
 }
 
 .homelink {
   position: fixed;
-  bottom: 0;
+  top: 400px;
   left: 0;
   margin: 20px;
 }
@@ -34,15 +34,11 @@ a {
 
 /* --- BODY --- */
 .topbar {
-  /*position: sticky;*/
   top: 0px;
   margin-top: -10px;
   padding-top: 10px;
   padding-bottom: 10px;
   display: inline-flex;
-  width: 100%;
-  z-index: 100;
-  background-color: white;
 }
 
 .burgerimg {
@@ -66,9 +62,7 @@ a {
 
 .titlebar {
   position: relative;
-  left: 400px;
-  /*padding-left: 400px;*/
-  width: 830px;
+  padding-left: 400px;
   align-items: top;
   margin: 10px;
   height: 50%;
@@ -80,8 +74,8 @@ a {
 }
 
 .description {
-  position: relative;
   font-family: "Courier New";
+  width: stretch;
   margin-right: 50px;
   margin-top: 10px;
   text-align: justify;
@@ -109,14 +103,9 @@ a {
 }
 
 .directions li {
-  /*list-style-position: outside;*/
   list-style: outside;
   list-style-type: decimal;
   margin-left: 20px;
   margin-bottom: 10px;
   text-align: justify;
 }
-
-/*.test {
-  height: 100vw;
-}*/
