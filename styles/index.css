@@ -27,6 +27,7 @@ a {
 /* --- BODY --- */
 .home {
   margin: auto; /* center-aligns the element(s) */
+  /*background-color: #f7ff44;*/
 }
 
 /* title bar */
@@ -79,6 +80,7 @@ a {
 }
 
 .menu-list li {
+  /*outline: 1px solid #444;*/
   margin: 10px;
   list-style: none;
   display: inline-flex; /* required to allow img centering */

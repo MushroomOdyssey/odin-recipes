@@ -12,18 +12,20 @@
 }
 
 /* links */
-.sourcelink {
-  position: fixed;
-  top: 400px;
-  left: 324px;
-  margin: 20px;
-}
 
+.sourcelink,
 .homelink {
   position: fixed;
   top: 400px;
-  left: 0;
   margin: 20px;
+}
+
+.sourcelink {
+  left: 324px;
+}
+
+.homelink {
+  left: 0;
 }
 
 a {
@@ -59,11 +61,14 @@ a {
   width: auto;
 }
 
-.titlebar {
+.titlebar,
+.pagebody {
   position: relative;
-  top: 5px;
-  margin: 10px;
   margin-left: 410px;
+}
+
+.titlebar {
+  top: 5px;
 }
 
 .title {
@@ -73,14 +78,12 @@ a {
 
 .description {
   font-family: "Courier New";
-  width: stretch;
   margin-right: 50px;
   margin-top: 10px;
   text-align: justify;
 }
 
 .pagebody {
-  padding-left: 415px;
   margin-right: 60px;
 }
 
@@ -94,15 +97,16 @@ a {
   padding-bottom: 10px;
 }
 
-.ingredients li {
-  list-style: circle inside;
+.ingredients li,
+.directions li {
   margin-bottom: 10px;
 }
 
+.ingredients li {
+  list-style: circle inside;
+  margin-left: 3px;
+}
+
 .directions li {
-  list-style: outside;
-  list-style-type: decimal;
   margin-left: 20px;
-  margin-bottom: 10px;
-  text-align: justify;
 }
