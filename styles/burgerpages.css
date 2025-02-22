@@ -50,6 +50,8 @@ a {
   justify-content: center; /* horiz center */
   align-items: center; /*vert center */
   overflow: hidden;
+  outline: 1px solid #222;
+  box-shadow: 3px 3px 3px #aaa;
 }
 
 .burgerimg img {
