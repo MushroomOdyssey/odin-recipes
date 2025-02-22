@@ -15,9 +15,8 @@
 .sourcelink {
   position: fixed;
   top: 400px;
-  left: 333px;
+  left: 324px;
   margin: 20px;
-  z-index: 200;
 }
 
 .homelink {
@@ -28,30 +27,28 @@
 }
 
 a {
+  text-transform: uppercase;
+  font-size: 16px;
   text-decoration: none;
   color: black;
 }
 
 /* --- BODY --- */
 .topbar {
-  top: 0px;
-  margin-top: -10px;
-  padding-top: 10px;
   padding-bottom: 10px;
-  display: inline-flex;
 }
 
 .burgerimg {
   position: fixed;
-  margin-top: 20px;
-  margin-left: 20px;
   left: 0px;
   top: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 380px;
   height: 380px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* required to allow img centering */
+  justify-content: center; /* horiz center */
+  align-items: center; /*vert center */
   overflow: hidden;
 }
 
@@ -62,10 +59,9 @@ a {
 
 .titlebar {
   position: relative;
-  padding-left: 400px;
-  align-items: top;
+  top: 5px;
   margin: 10px;
-  height: 50%;
+  margin-left: 410px;
 }
 
 .title {
@@ -82,8 +78,7 @@ a {
 }
 
 .pagebody {
-  padding-left: 400px;
-  margin: 10px;
+  padding-left: 415px;
   margin-right: 60px;
 }
 
