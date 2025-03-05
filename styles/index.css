@@ -1,8 +1,55 @@
 /* Homepage Style */
 
 * {
+  outline: 1px dashed blue; /*!!*/
+  background: #ff000015; /*!!*/
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.pageContainer {
+  width: 85vw;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.pageTitle {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.menuContainer {
+  margin-top: 50px;
+}
+
+.menuTitle {
+  display: inline-block;
+  outline: 2px solid #000;
+  border-radius: 10px;
+  padding: 7px;
+  background: #fff;
+}
+
+.menuImageContainer {
+}
+
+.menuList {
+  display: inline-block;
+  outline: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px 10px 15px 10px;
+}
+
+.menuList li {
+  display: inline-block;
+  margin: 0 5px;
 }
