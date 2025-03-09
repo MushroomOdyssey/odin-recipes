@@ -1,8 +1,50 @@
 /* Recipe Page Style */
 
 * {
+  outline: 1px dashed #0000ff; /**/
+  background: #ff000010; /**/
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+
+  padding: 5px; /**/
+}
+
+span {
+  font-size: 10px;
+  text-align: center;
+  line-height: 0;
+  display: block;
+  margin: auto;
+  width: fit-content; /**/
+}
+
+.page-container {
+  width: 85vw;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.title-container {
+}
+
+.title {
+}
+
+.subtitle {
+}
+
+.recipe-container {
+}
+
+.item-image {
+}
+
+.ingredients {
+}
+
+.instructions {
 }
