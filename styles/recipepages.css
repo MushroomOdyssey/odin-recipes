@@ -8,8 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
-  font-size: 22px; /**/
-  /*font-size: 16px; /**/
+  font-size: 22px;
 }
 
 a {
@@ -22,9 +21,7 @@ a {
   margin: auto;
   margin-top: 35px;
   margin-bottom: 45px;
-  max-width: 1088px; /**/
-
-  /*outline: 1px solid #00f; /**/
+  max-width: 1088px;
 }
 
 .link-container {
@@ -44,10 +41,8 @@ a {
 }
 
 .title-image {
-  width: 545px; /**/
-  height: 545px; /**/
-  /*width: 300px; /**/
-  /*height: 300px; /**/
+  width: 545px;
+  height: 545px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -56,8 +51,7 @@ a {
 }
 
 .title-image img {
-  height: 700px; /**/
-  /*height: 400px; /**/
+  height: 700px;
   width: auto;
 }
 
@@ -65,8 +59,7 @@ a {
 }
 
 .title {
-  font-size: 87px; /**/
-  /*font-size: 64px; /**/
+  font-size: 87px;
 }
 
 .subtitle {
