@@ -27,8 +27,8 @@
 }
 
 .sub-title {
+  font-family: "Courier New", Courier, monospace;
   font-style: italic;
-  /*margin-top: -10px;*/
 }
 
 .menu-container {
@@ -42,9 +42,6 @@
   display: block;
   outline: 2px solid #000;
   border-radius: 10px;
-  /*padding: 15px;*/
-  /*padding-top: 40px;*/
-  /*padding: 20px 10px 15px 10px;*/
 }
 
 .menu-title {
@@ -53,24 +50,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 7px;
-  /*margin-bottom: -33px;*/
-  /*background: #fff;*/
 }
-
-/*
-.menu-list li {
-  display: inline-block;
-  margin: 5px 5px;
-  height: 300px;
-  width: 300px;
-}
-
-.img-name {
-  display: block;
-  position: relative;
-  bottom: -280px;
-}
-*/
 
 .menu-list {
   font-size: 0px;
@@ -80,10 +60,8 @@
 .burger-list {
   list-style: none;
   display: inline-block;
-  /*height: 300px;
-  width: 300px;*/
   margin: 10px 10px;
-  /*overflow: hidden;*/
+  outline: 1px solid #000;
 }
 
 .burger-image {
@@ -92,16 +70,6 @@
   width: 300px;
 }
 
-/*
-.burger-name {
-  background: #ffffff;
-  outline: 1px solid #000;
-  text-align: center;
-  position: relative;
-  top: -23px;
-}
-*/
-
 .burger-name {
   font-size: 16px;
   display: block;
@@ -109,4 +77,5 @@
   height: 30px;
   position: relative;
   align-content: center;
+  outline: 1px solid #000;
 }
