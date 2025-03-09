@@ -1,8 +1,8 @@
 /* Homepage Style */
 
 * {
-  /*  outline: 1px dashed blue; /*!!*/
-  /*  background: #ff000010; /*!!*/
+  /*outline: 1px dashed blue; /*!!*/
+  /*background: #ff000010; /*!!*/
 
   margin: 0px;
   padding: 0px;
@@ -17,9 +17,9 @@ a {
 }
 
 .page-container {
-  width: 85vw;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 45px;
+  max-width: 1088px;
   text-align: center;
 }
 
@@ -37,32 +37,17 @@ a {
   font-style: italic;
 }
 
-.menu-container {
-  margin-top: 50px;
-}
-
-.menu-image-container {
-  width: fit-content;
-  margin: auto;
-}
-
-.menu-list-container {
-  display: block;
-  border-radius: 10px;
-}
-
 .menu-title {
-  display: block;
   border-bottom: 1px solid black;
-  padding: 7px;
+  padding-bottom: 7px;
 }
 
 .menu-list {
-  font-size: 0px;
+  font-size: 0px; /* removes extra space added by <li> */
   padding: 10px;
 }
 
-.burger-list {
+.menu-list li {
   list-style: none;
   display: inline-block;
   margin: 10px 10px;
@@ -83,11 +68,10 @@ a {
 
 .burger-name {
   font-size: 16px;
-  display: block;
   margin-top: -30px;
   height: 30px;
   position: relative;
-  align-content: center;
+  align-content: center; /* text ver alignment */
   border-top: 1px solid #000;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8); /* better transparency than hex */
 }
