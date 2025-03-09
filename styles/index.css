@@ -8,6 +8,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 24px;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
 }
 
 .page-title {
-  font-size: 64px;
+  font-size: 96px;
   font-weight: bold;
 }
 
@@ -47,15 +48,12 @@ a {
 
 .menu-list-container {
   display: block;
-  border: 2px solid #000;
+  /*border: 2px solid #000; /**/
   border-radius: 10px;
 }
 
 .menu-title {
   display: block;
-  /*  outline: 2px solid #000;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; */
   border-bottom: 1px solid black;
   padding: 7px;
 }
@@ -77,8 +75,6 @@ a {
   width: 300px;
   overflow: hidden;
   display: flex;
-  /*  justify-content: center;
-  align-items: center; */
 }
 
 .burger-image img {
