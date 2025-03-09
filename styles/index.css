@@ -1,13 +1,18 @@
 /* Homepage Style */
 
 * {
-  outline: 1px dashed blue; /*!!*/
-  background: #ff000010; /*!!*/
+  /*  outline: 1px dashed blue; /*!!*/
+  /*  background: #ff000010; /*!!*/
 
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .page-container {
@@ -65,9 +70,17 @@
 }
 
 .burger-image {
-  display: inline-block;
   height: 300px;
   width: 300px;
+  overflow: hidden;
+  display: flex;
+  /*  justify-content: center;
+  align-items: center; */
+}
+
+.burger-image img {
+  height: 300px;
+  width: auto;
 }
 
 .burger-name {
@@ -78,4 +91,5 @@
   position: relative;
   align-content: center;
   outline: 1px solid #000;
+  background: rgba(255, 255, 255, 0.8);
 }
