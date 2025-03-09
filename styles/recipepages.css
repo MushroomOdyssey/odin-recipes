@@ -1,8 +1,8 @@
 /* Recipe Page Style */
 
 * {
-  /*outline: 1px dashed #0000ff; /**/
-  /*background: #ff000010; /**/
+  /* outline: 1px dashed #0000ff; /**/
+  /*  background: #ff000010; /**/
 
   margin: 0;
   padding: 0;
@@ -16,8 +16,11 @@ a {
   color: #000;
 }
 
+sup {
+  font-size: 16px;
+}
+
 .page-container {
-  width: 85vw;
   margin: auto;
   margin-top: 35px;
   margin-bottom: 45px;
@@ -55,9 +58,6 @@ a {
   width: auto;
 }
 
-.title-container {
-}
-
 .title {
   font-size: 87px;
 }
@@ -67,14 +67,6 @@ a {
   text-align: justify;
 }
 
-.recipe-container {
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-left: 25px;
-  padding-right: 5px;
-}
-
 .recipe-title-container {
   display: inline-flex;
   justify-content: space-around;
@@ -82,7 +74,10 @@ a {
   margin-bottom: 15px;
 }
 
-.recipe-title {
+.recipe-container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .ingredient-container li,
@@ -95,10 +90,13 @@ a {
   width: 49%;
   vertical-align: top;
   position: relative;
+  padding-left: 25px;
 }
 
 .instruction-container {
   display: inline-flex;
   width: 49%;
   vertical-align: top;
+  padding-left: 15px;
+  padding-right: 5px;
 }
