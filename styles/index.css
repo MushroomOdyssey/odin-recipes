@@ -41,19 +41,22 @@ a {
 }
 
 .menu-image-container {
+  width: fit-content;
+  margin: auto;
 }
 
 .menu-list-container {
   display: block;
-  outline: 2px solid #000;
+  border: 2px solid #000;
   border-radius: 10px;
 }
 
 .menu-title {
   display: block;
-  outline: 2px solid #000;
+  /*  outline: 2px solid #000;
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 10px; */
+  border-bottom: 1px solid black;
   padding: 7px;
 }
 
@@ -66,7 +69,7 @@ a {
   list-style: none;
   display: inline-block;
   margin: 10px 10px;
-  outline: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .burger-image {
@@ -90,6 +93,6 @@ a {
   height: 30px;
   position: relative;
   align-content: center;
-  outline: 1px solid #000;
+  border-top: 1px solid #000;
   background: rgba(255, 255, 255, 0.8);
 }
