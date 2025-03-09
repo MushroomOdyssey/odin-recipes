@@ -88,6 +88,11 @@ a {
 .recipe-title {
 }
 
+.ingredient-container li,
+.instruction-container li {
+  margin-bottom: 10px;
+}
+
 .ingredient-container {
   display: inline-flex;
   width: 49%;
