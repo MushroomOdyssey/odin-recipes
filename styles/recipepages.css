@@ -1,8 +1,8 @@
 /* Recipe Page Style */
 
 * {
-  /* outline: 1px dashed #0000ff; /**/
-  /*  background: #ff000010; /**/
+  /*outline: 1px dashed #0000ff; /**/
+  /*background: #ff000010; /**/
 
   margin: 0;
   padding: 0;
@@ -27,16 +27,23 @@ sup {
   max-width: 1088px;
 }
 
+/**/
+/**/
+/*-LINKS------------------------*/
+
 .link-container {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  width: 100%;
   margin-bottom: 10px;
 }
 
+/**/
+/**/
+/*-TITLE CONTAINER--------------*/
+
 .title-box-container {
   margin-bottom: 50px;
-  display: inline-flex;
+  display: flex;
 }
 
 .title-image-container {
@@ -46,11 +53,12 @@ sup {
 .title-image {
   width: 545px;
   height: 545px;
+  border: 1px solid #000;
   overflow: hidden;
+  /* IMG ALIGNMENT */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000;
 }
 
 .title-image img {
@@ -64,39 +72,75 @@ sup {
 
 .subtitle {
   font-family: "Courier New", Courier, monospace;
-  text-align: justify;
 }
 
-.recipe-title-container {
+/**/
+/**/
+/*-RECIPE CONTAINER-------------*/
+
+/*.recipe-title-container {
   display: inline-flex;
   justify-content: space-around;
   width: 100%;
   margin-bottom: 15px;
-}
+}*/
 
 .recipe-container {
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
+  display: flex;
 }
 
-.ingredient-container li,
-.instruction-container li {
+.recipe-container li {
   margin-bottom: 10px;
 }
 
-.ingredient-container {
+.ingredients-title,
+.instructions-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.ingredients-container {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.ingredients-list {
+  padding-left: 30px;
+}
+
+.instructions-container {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.instructions-list {
+  padding-left: 30px;
+}
+
+/*.recipe-container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}*/
+
+/*.ingredient-container li,
+.instruction-container li {
+  margin-bottom: 10px;
+}*/
+
+/*.ingredient-container {
   display: inline-flex;
   width: 49%;
   vertical-align: top;
   position: relative;
   padding-left: 25px;
-}
+}*/
 
-.instruction-container {
+/*.instruction-container {
   display: inline-flex;
   width: 49%;
   vertical-align: top;
   padding-left: 15px;
   padding-right: 5px;
-}
+}*/
