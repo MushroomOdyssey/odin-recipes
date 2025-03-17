@@ -23,6 +23,10 @@ a {
   text-align: center;
 }
 
+/**/
+/**/
+/*-TITLE CONTENT----------------*/
+
 .title-container {
   margin-bottom: 50px;
 }
@@ -37,6 +41,10 @@ a {
   font-style: italic;
 }
 
+/**/
+/**/
+/*-MENU CONTENT-----------------*/
+
 .menu-title {
   border-bottom: 1px solid black;
   padding-bottom: 7px;
@@ -45,11 +53,12 @@ a {
 .menu-list {
   font-size: 0px; /* removes extra space added by <li> */
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-list li {
   list-style: none;
-  display: inline-block;
   margin: 10px 10px;
   border: 1px solid #000;
 }
@@ -58,7 +67,6 @@ a {
   height: 300px;
   width: 300px;
   overflow: hidden;
-  display: flex;
 }
 
 .burger-image img {
