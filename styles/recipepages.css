@@ -1,6 +1,7 @@
 /* Recipe Page Style */
 
 * {
+  /*-DEBUGGING--------------------*/
   /*outline: 1px dashed #0000ff; /**/
   /*background: #ff000010; /**/
 
@@ -78,13 +79,6 @@ sup {
 /**/
 /*-RECIPE CONTAINER-------------*/
 
-/*.recipe-title-container {
-  display: inline-flex;
-  justify-content: space-around;
-  width: 100%;
-  margin-bottom: 15px;
-}*/
-
 .recipe-container {
   display: flex;
 }
@@ -117,30 +111,3 @@ sup {
 .instructions-list {
   padding-left: 30px;
 }
-
-/*.recipe-container {
-  display: inline-flex;
-  justify-content: space-between;
-  width: 100%;
-}*/
-
-/*.ingredient-container li,
-.instruction-container li {
-  margin-bottom: 10px;
-}*/
-
-/*.ingredient-container {
-  display: inline-flex;
-  width: 49%;
-  vertical-align: top;
-  position: relative;
-  padding-left: 25px;
-}*/
-
-/*.instruction-container {
-  display: inline-flex;
-  width: 49%;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 5px;
-}*/
