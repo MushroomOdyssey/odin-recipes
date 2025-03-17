@@ -55,6 +55,7 @@ a {
   font-size: 0px; /* removes extra space added by <li> */
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
