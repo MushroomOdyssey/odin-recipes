@@ -114,11 +114,12 @@ h4 {
   padding: 7px;
 
   box-shadow: 0px 0px 10px 3px black, inset 0px 0px 10px 3px black;
+  border: 5px solid rgba(0, 0, 0, 0.9);
 
-  border-top: 5px solid black;
+  /* border-top: 5px solid black;
   border-left: 5px solid black;
   border-right: 5px solid black;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid black; */
 
   /* border: 2px dotted hotpink; */
 }
@@ -152,7 +153,12 @@ h4 {
 
 .main-pane-page-content {
   flex: 1;
-  padding: 20px 0px 20px;
+  margin-top: 10px;
+  padding: 20px 40px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+
+  /* border: 2px dotted hotpink; */
 }
 
 .meals-list-item {
@@ -166,7 +172,14 @@ h4 {
   height: 300px;
   width: 300px;
   align-content: center;
-  margin-right: 10px;
+  margin-right: 30px;
+
+  box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.75), 0px 0px 10px 4px rgba(0, 0, 0, 0.75);
+}
+
+.img-container img {
+  mask-image: linear-gradient(to top, transparent 0%, black 2%, black 98%, transparent 100%), linear-gradient(to left, transparent 0%, black 2%, black 98%, transparent 100%);
+  mask-composite: intersect;
 }
 
 .meals-list-desc {
