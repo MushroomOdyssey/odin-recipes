@@ -1,11 +1,142 @@
 /* Odin-Recipes Style Sheet */
 
+/**/
+/* ---------- DETAIL and DEBUGGING */
+/**/
+
 * {
   margin: 0px;
-  padding: 0px;
+  padding: 3px;
   box-sizing: border-box;
+
   /* Debugging */
-  outline: 1px solid lime;
+  outline: 1px dotted grey;
   background: black;
   color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+html,
+body {
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.whole-page {
+  margin: 0px;
+  padding: 0px;
+}
+
+*:hover {
+  outline: 1px solid lime;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-transform: none;
+}
+
+img {
+  margin-right: 10px;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+/**/
+/* ---------- PAGE WINDOW PANE LAYOUT */
+/**/
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-window-main-foot {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.page-window-main {
+  display: flex;
+  overflow: hidden;
+}
+
+.page-window-main-left-pane,
+.page-window-main-right-pane {
+  flex: 1;
+}
+
+.page-window-main-center-pane {
+  width: 1000px;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+/**/
+/* ---------- MAIN PANE */
+/**/
+
+.main-pane-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  flex: 1;
+  align-content: center;
+  font-size: 8em;
+}
+
+.main-pane-page-content {
+  flex: 1;
+  padding: 20px 0px 20px;
+}
+
+.meals-list {
+  margin-top: 40px;
+  display: flex;
+}
+
+.meals-list-desc {
+  flex: 1;
+}
+
+/**/
+/* ---------- PAGE WINDOW FOOTER */
+/**/
+
+.page-window-footer {
+  display: flex;
+}
+
+.copyright {
+  margin-right: auto;
+}
+
+.page-window-nav {
+  display: flex;
+}
+
+.page-window-nav a {
+  margin: 0px 20px;
 }
