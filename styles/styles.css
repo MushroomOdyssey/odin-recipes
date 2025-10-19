@@ -102,6 +102,8 @@ h4 {
 .page-window-main-left-pane,
 .page-window-main-right-pane {
   flex: 1;
+
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .page-window-main-center-pane {
@@ -110,6 +112,13 @@ h4 {
   overflow-y: scroll;
   scrollbar-width: none;
   padding: 7px;
+
+  box-shadow: 0px 0px 10px 3px black, inset 0px 0px 10px 3px black;
+
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
 
   /* border: 2px dotted hotpink; */
 }
@@ -171,8 +180,14 @@ h4 {
 
 .page-window-footer {
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
+  padding: 0px 20px;
+  padding-bottom: 10px;
   align-items: center;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 30px 35px black;
+
+  /* outline: 2px dashed hotpink; */
 }
 
 .copyright {
