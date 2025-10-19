@@ -30,9 +30,9 @@ body {
   padding: 0px;
 }
 
-*:hover {
+/* *:hover {
   outline: 1px solid lime;
-}
+} */
 
 a {
   text-decoration: none;
@@ -44,12 +44,27 @@ p {
 }
 
 h1 {
+  text-shadow: 1px 1px 3px white, -1px -1px 3px white, -1px 1px 3px white, 1px -1px 3px white, 0px 0px 4px rgba(255, 75, 150, 1), 1px -1px 3px white, 0px 0px 50px rgba(25, 200, 200, 0.35), 0px 0px 50px rgba(255, 255, 255, 0.3), 0px 0px 100px rgba(100, 0, 200, 0.8);
   font-size: clamp(3.5rem, 15vw, 6rem);
+  letter-spacing: 0.125em;
+  /* margin-top: 20px; */
+
+  /* border: 2px dotted lime; */
 }
 
 h2 {
-  margin-top: 3px;
-  text-transform: none;
+  margin-top: 20px;
+  text-transform: lowercase;
+
+  font-weight: lighter;
+  font-style: italic;
+  text-shadow: 0px 0px 1px white, 0px 0px 2px white, 0px 0px 3px white, 0px 0px 4px white;
+  font-size: clamp(0.86rem, 1.5rem, 1.5rem);
+  font-family: "trebuchet ms";
+  letter-spacing: 0.4em;
+  color: black;
+
+  /* border: 2px dotted lime; */
 }
 
 h3 {
@@ -94,6 +109,9 @@ h4 {
   height: 100%;
   overflow-y: scroll;
   scrollbar-width: none;
+  padding: 7px;
+
+  /* border: 2px dotted hotpink; */
 }
 
 /**/
@@ -103,12 +121,20 @@ h4 {
 .main-pane-title {
   display: flex;
   flex-direction: column;
+  padding: 20px 0px 20px;
+
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 0px 20px white, 0px 0px 6px 1px white;
+
+  /* border: 2px dotted hotpink; */
 }
 
 .title {
   flex: 1;
   align-content: center;
   /* font-size: 8em; */
+
+  /* box-shadow: inset 0px 0px 20px white, 0px 0px 6px 1px white; */
 }
 
 /**/
