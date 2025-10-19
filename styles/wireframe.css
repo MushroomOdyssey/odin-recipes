@@ -41,6 +41,7 @@ a {
 p {
   text-transform: none;
   text-align: left;
+  padding: 10px;
 }
 
 h1 {
@@ -128,7 +129,7 @@ h4 {
   height: 300px;
   width: 300px;
   align-content: center;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .meals-list-desc {
