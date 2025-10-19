@@ -112,13 +112,16 @@ h4 {
   padding: 20px 0px 20px;
 }
 
-.meals-list {
+.meals-list-item {
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .meals-list-desc {
   flex: 1;
+  min-width: 300px;
 }
 
 /**/
